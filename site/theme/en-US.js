@@ -7,7 +7,7 @@ module.exports = {
     'app.header.search': 'Search...',
     'app.header.menu.home': 'Home',
     'app.header.menu.practice': 'Practice',
-    'app.header.menu.components': 'Components',
+    'app.header.menu.components': 'Modules',
     'app.header.menu.spec': 'Guidelines',
     'app.header.lang': '中文',
     'app.content.edit-page': 'Edit this page on GitHub!',

@@ -7,7 +7,7 @@ module.exports = {
     'app.header.search': '全文本搜索...',
     'app.header.menu.home': '首页',
     'app.header.menu.practice': '实践',
-    'app.header.menu.components': '组件',
+    'app.header.menu.components': '模块',
     'app.header.menu.spec': '指引',
     'app.header.lang': 'EN',
     'app.content.edit-page': '在 Github 上编辑此页！',
