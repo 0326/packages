@@ -9,7 +9,7 @@
     "start": "parcel index.html --no-cache",
     "test": "",
     "lint": "eslint ./src",
-    "build": "rimraf docs && mkdir docs && parcel build index.html -d docs --public-url //quanfeng.tech/js-modules-docs/docs/"
+    "build": "rimraf docs && mkdir docs && parcel build index.html -d docs --public-url //quanfeng.tech/packages/"
   },
   "devDependencies": {
     "babel": "^6.23.0",

@@ -1,6 +1,6 @@
-import compTpl from '../modules/response-dom/README.md'
+import compTpl from '../packages/response-dom/README.md'
 
-const $ = window.Zepto
+const $ = window.jQuery
 
 const pages = {}
 Array.from($('#J_Config').find('a')).map(el => {

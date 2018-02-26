@@ -1,10 +1,23 @@
 import './css/main.css'
+import './css/welcome.css'
 import './css/side-menu.css'
 import './css/simulator.css'
 
 import optComponents from './doconfig'
 
-const $ = window.Zepto
+const $ = window.jQuery
+
+$('#J_fullscreen').on('click', (e) => {
+  const href = $(e.target).data('href')
+  if (href) {
+    window.open(href)
+  } else {
+    $(e.currentTarget).addClass('animated-zoom-out')
+    setTimeout(() => {
+      $(e.currentTarget).remove()
+    }, 1000)
+  }
+})
 
 function renderMenu ($menu) {
   let selectedIndex = getSelectedAnchorIndex(optComponents)
