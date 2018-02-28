@@ -1,8 +1,8 @@
 {
-  "name": "response-dom",
+  "name": "generate-color",
   "version": "0.0.1",
   "main": "dist/bundle.js",
-  "author": "0326 <winniringy@gmail.com>",
+  "author": "全锋",
   "scripts": {
     "watch": "rollup -c -w",
     "server": "./node_modules/.bin/parcel demo.html",
@@ -10,15 +10,18 @@
     "build": "rimraf dist && rollup -c && parcel build demo.html --public-url ./"
   },
   "keywords": [
-    "response-dom",
-    "dom"
+    "random color",
+    "picker color",
+    "generate color",
+    "material",
+    "flat",
+    "web color"
   ],
   "license": "MIT",
   "browserslist": [
     "> 1%",
     "last 2 versions"
   ],
-  "repository": "git@github.com:0326/packages.git",
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "babel-plugin-external-helpers": "^6.22.0",
