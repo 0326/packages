@@ -1,4 +1,4 @@
-# 拾色器(color-picker)
+# 颜色生成器(generate-color)
 JavaScript 颜色生成器，支持以下功能：
 - 随机获取一种颜色(或颜色列表)；
 - 从指定色彩风格(比如 web 风格，material 风格)中获取颜色；
