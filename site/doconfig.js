@@ -1,4 +1,5 @@
 import compTpl from '../packages/response-dom/README.md'
+import generateColor from '../packages/generate-color/README.md'
 
 const $ = window.jQuery
 
@@ -12,10 +13,10 @@ const optComponents = [{
   anchor: 'comp-tpl',
   content: compTpl
 }, {
-  title: '抽奖弹窗',
-  anchor: 'lottery-dialog',
-  src: pages['lottery-dialog'],
-  content: compTpl
+  title: '颜色生成器',
+  anchor: 'generate-color',
+  src: pages['generate-color'],
+  content: generateColor
 }, {
   title: 'RPC抽奖',
   anchor: 'rpc-lottery',

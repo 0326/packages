@@ -1,6 +1,6 @@
 {
   "name": "generate-color",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/bundle.js",
   "author": "全锋",
   "scripts": {
@@ -40,6 +40,7 @@
     "rollup-plugin-postcss": "^1.2.9",
     "rollup-plugin-strip": "^1.1.1",
     "rollup-plugin-uglify": "^3.0.0",
+    "rollup": "^0.56.3",
     "rollup-watch": "^4.3.1"
   }
 }
