@@ -1,6 +1,6 @@
 {
   "name": "generate-color",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "dist/bundle.js",
   "author": "全锋",
   "scripts": {
@@ -10,12 +10,14 @@
     "build": "rimraf dist && rollup -c && parcel build demo.html --public-url ./"
   },
   "keywords": [
-    "random color",
-    "picker color",
-    "generate color",
+    "random-color",
+    "random",
+    "color",
+    "picker",
+    "generate",
     "material",
     "flat",
-    "web color"
+    "web"
   ],
   "license": "MIT",
   "browserslist": [

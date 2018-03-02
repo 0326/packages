@@ -31,16 +31,16 @@ genMaterialColor()
 web 标准色值集合, 符合 CSS Color Module Level 4 中定义的色彩名，参考：
 - https://www.w3.org/TR/css-color-4/#named-colors
 
-![](//7xp4vm.com1.z0.glb.clouddn.com/css-color-module-level-4.png)
+![](http://7xp4vm.com1.z0.glb.clouddn.com/css-color-module-level-4.png)
 
 material 标准色值集合，参考：
 - https://material.io/guidelines/style/color.html#color-color-palette
 
-![](//7xp4vm.com1.z0.glb.clouddn.com/materialcolor.png)
+![](http://7xp4vm.com1.z0.glb.clouddn.com/materialcolor.png)
 
 
 
-### 进阶用法 TODO
+### 进阶用法
 可以通过函数参数定制返回结果：
 
 #### num: 指定返回数量
@@ -66,4 +66,7 @@ genColor({ format: 'object' })
 ```
 
 #### algorithm: 指定随机算法
-// TODO
+```javascript
+// 目前仅使用 JS 的 Math.random 随机颜色
+genColor({ format: 'hex', algorithm: 'Math.random' })
+```

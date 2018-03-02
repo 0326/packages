@@ -18,7 +18,13 @@ function genWebColorListTpl (num, list) {
 function genMColorListTpl (num, list) {
   return list.map((color) => {
     const a = color.split(' #')
-    return `<span style="background:#${a[1]}">${a[0]}</span>`
+    return `<span style="background:color}">${color}</span>`
+  }).join('')
+}
+
+function renderColors(list) {
+  return list.map((color) => {
+    return `<span style="background:${color}">${color}</span>`
   }).join('')
 }
 
@@ -35,6 +41,18 @@ function appendBox (num, randomCall, gen) {
 // appendBox(100, randomColorTpl, genWebColor)
 
 // 列举所有 web 颜色
-appendBox(webColorList.length, genWebColorListTpl, webColorList)
+// appendBox(webColorList.length, genWebColorListTpl, webColorList)
+
+const wl = genColor({
+  num: 100,
+  opacity: 0.2
+})
+const tpl = renderColors(wl)
+console.log(tpl)
+const box = document.createElement('div')
+box.classList.add('color-box')
+box.innerHTML = tpl
+document.body.appendChild(box)
+
 // 列举所有 material 颜色
-appendBox(materialColorList.length, genMColorListTpl, materialColorList)
+// appendBox(materialColorList.length, genMColorListTpl, materialColorList)
