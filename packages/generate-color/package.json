@@ -1,6 +1,6 @@
 {
   "name": "generate-color",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "main": "dist/bundle.js",
   "author": "全锋",
   "scripts": {

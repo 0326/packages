@@ -4,7 +4,6 @@ import genColor from './base'
 
 // export const materialColorList = [
 //   // 'Red'
-//   '500 #F44336',
 //   '50 #FFEBEE',
 //   '100 #FFCDD2',
 //   '200 #EF9A9A',
@@ -20,7 +19,6 @@ import genColor from './base'
 //   'A400 #FF1744',
 //   'A700 #D50000',
 //   // 'Pink'
-//   '500 #E91E63',
 //   '50 #FCE4EC',
 //   '100 #F8BBD0',
 //   '200 #F48FB1',
@@ -36,7 +34,6 @@ import genColor from './base'
 //   'A400 #F50057',
 //   'A700 #C51162',
 //   // 'Purple'
-//   '500 #9C27B0',
 //   '50 #F3E5F5',
 //   '100 #E1BEE7',
 //   '200 #CE93D8',
@@ -52,7 +49,6 @@ import genColor from './base'
 //   'A400 #D500F9',
 //   'A700 #AA00FF',
 //   // 'Deep Purple'
-//   '500 #673AB7',
 //   '50 #EDE7F6',
 //   '100 #D1C4E9',
 //   '200 #B39DDB',
@@ -68,7 +64,6 @@ import genColor from './base'
 //   'A400 #651FFF',
 //   'A700 #6200EA',
 //   // 'Indigo'
-//   '500 #3F51B5',
 //   '50 #E8EAF6',
 //   '100 #C5CAE9',
 //   '200 #9FA8DA',
@@ -84,7 +79,6 @@ import genColor from './base'
 //   'A400 #3D5AFE',
 //   'A700 #304FFE',
 //   // 'Blue'
-//   '500 #2196F3',
 //   '50 #E3F2FD',
 //   '100 #BBDEFB',
 //   '200 #90CAF9',
@@ -100,7 +94,6 @@ import genColor from './base'
 //   'A400 #2979FF',
 //   'A700 #2962FF',
 //   // 'Light Blue'
-//   '500 #03A9F4',
 //   '50 #E1F5FE',
 //   '100 #B3E5FC',
 //   '200 #81D4FA',
@@ -116,7 +109,6 @@ import genColor from './base'
 //   'A400 #00B0FF',
 //   'A700 #0091EA',
 //   // 'Cyan'
-//   '500 #00BCD4',
 //   '50 #E0F7FA',
 //   '100 #B2EBF2',
 //   '200 #80DEEA',
@@ -132,7 +124,6 @@ import genColor from './base'
 //   'A400 #00E5FF',
 //   'A700 #00B8D4',
 //   // 'Teal'
-//   '500 #009688',
 //   '50 #E0F2F1',
 //   '100 #B2DFDB',
 //   '200 #80CBC4',
@@ -148,7 +139,6 @@ import genColor from './base'
 //   'A400 #1DE9B6',
 //   'A700 #00BFA5',
 //   // 'Green'
-//   '500 #4CAF50',
 //   '50 #E8F5E9',
 //   '100 #C8E6C9',
 //   '200 #A5D6A7',
@@ -164,7 +154,6 @@ import genColor from './base'
 //   'A400 #00E676',
 //   'A700 #00C853',
 //   // 'Light Green'
-//   '500 #8BC34A',
 //   '50 #F1F8E9',
 //   '100 #DCEDC8',
 //   '200 #C5E1A5',
@@ -180,7 +169,6 @@ import genColor from './base'
 //   'A400 #76FF03',
 //   'A700 #64DD17',
 //   // 'Lime'
-//   '500 #CDDC39',
 //   '50 #F9FBE7',
 //   '100 #F0F4C3',
 //   '200 #E6EE9C',
@@ -196,7 +184,6 @@ import genColor from './base'
 //   'A400 #C6FF00',
 //   'A700 #AEEA00',
 //   // 'Yellow'
-//   '500 #FFEB3B',
 //   '50 #FFFDE7',
 //   '100 #FFF9C4',
 //   '200 #FFF59D',
@@ -212,7 +199,6 @@ import genColor from './base'
 //   'A400 #FFEA00',
 //   'A700 #FFD600',
 //   // 'Amber'
-//   '500 #FFC107',
 //   '50 #FFF8E1',
 //   '100 #FFECB3',
 //   '200 #FFE082',
@@ -228,7 +214,6 @@ import genColor from './base'
 //   'A400 #FFC400',
 //   'A700 #FFAB00',
 //   // 'Orange'
-//   '500 #FF9800',
 //   '50 #FFF3E0',
 //   '100 #FFE0B2',
 //   '200 #FFCC80',
@@ -244,7 +229,6 @@ import genColor from './base'
 //   'A400 #FF9100',
 //   'A700 #FF6D00',
 //   // 'Deep Orange'
-//   '500 #FF5722',
 //   '50 #FBE9E7',
 //   '100 #FFCCBC',
 //   '200 #FFAB91',
@@ -260,7 +244,6 @@ import genColor from './base'
 //   'A400 #FF3D00',
 //   'A700 #DD2C00',
 //   // 'Brown'
-//   '500 #795548',
 //   '50 #EFEBE9',
 //   '100 #D7CCC8',
 //   '200 #BCAAA4',
@@ -272,7 +255,6 @@ import genColor from './base'
 //   '800 #4E342E',
 //   '900 #3E2723',
 //   // 'Grey'
-//   '500 #9E9E9E',
 //   '50 #FAFAFA',
 //   '100 #F5F5F5',
 //   '200 #EEEEEE',
@@ -284,7 +266,6 @@ import genColor from './base'
 //   '800 #424242',
 //   '900 #212121',
 //   // 'Blue Grey'
-//   '500 #607D8B',
 //   '50 #ECEFF1',
 //   '100 #CFD8DC',
 //   '200 #B0BEC5',
@@ -303,7 +284,6 @@ import genColor from './base'
 
 export const materialColorList = [
   // 'Red'
-  'F44336',
   'FFEBEE',
   'FFCDD2',
   'EF9A9A',
@@ -319,7 +299,6 @@ export const materialColorList = [
   'FF1744',
   'D50000',
   // 'Pink'
-  'E91E63',
   'FCE4EC',
   'F8BBD0',
   'F48FB1',
@@ -335,7 +314,6 @@ export const materialColorList = [
   'F50057',
   'C51162',
   // 'Purple'
-  '9C27B0',
   'F3E5F5',
   'E1BEE7',
   'CE93D8',
@@ -351,7 +329,6 @@ export const materialColorList = [
   'D500F9',
   'AA00FF',
   // 'Deep Purple'
-  '673AB7',
   'EDE7F6',
   'D1C4E9',
   'B39DDB',
@@ -367,7 +344,6 @@ export const materialColorList = [
   '651FFF',
   '6200EA',
   // 'Indigo'
-  '3F51B5',
   'E8EAF6',
   'C5CAE9',
   '9FA8DA',
@@ -383,7 +359,6 @@ export const materialColorList = [
   '3D5AFE',
   '304FFE',
   // 'Blue'
-  '2196F3',
   'E3F2FD',
   'BBDEFB',
   '90CAF9',
@@ -399,7 +374,6 @@ export const materialColorList = [
   '2979FF',
   '2962FF',
   // 'Light Blue'
-  '03A9F4',
   'E1F5FE',
   'B3E5FC',
   '81D4FA',
@@ -415,7 +389,6 @@ export const materialColorList = [
   '00B0FF',
   '0091EA',
   // 'Cyan'
-  '00BCD4',
   'E0F7FA',
   'B2EBF2',
   '80DEEA',
@@ -431,7 +404,6 @@ export const materialColorList = [
   '00E5FF',
   '00B8D4',
   // 'Teal'
-  '009688',
   'E0F2F1',
   'B2DFDB',
   '80CBC4',
@@ -447,7 +419,6 @@ export const materialColorList = [
   '1DE9B6',
   '00BFA5',
   // 'Green'
-  '4CAF50',
   'E8F5E9',
   'C8E6C9',
   'A5D6A7',
@@ -463,7 +434,6 @@ export const materialColorList = [
   '00E676',
   '00C853',
   // 'Light Green'
-  '8BC34A',
   'F1F8E9',
   'DCEDC8',
   'C5E1A5',
@@ -479,7 +449,6 @@ export const materialColorList = [
   '76FF03',
   '64DD17',
   // 'Lime'
-  'CDDC39',
   'F9FBE7',
   'F0F4C3',
   'E6EE9C',
@@ -495,7 +464,6 @@ export const materialColorList = [
   'C6FF00',
   'AEEA00',
   // 'Yellow'
-  'FFEB3B',
   'FFFDE7',
   'FFF9C4',
   'FFF59D',
@@ -511,7 +479,6 @@ export const materialColorList = [
   'FFEA00',
   'FFD600',
   // 'Amber'
-  'FFC107',
   'FFF8E1',
   'FFECB3',
   'FFE082',
@@ -527,7 +494,6 @@ export const materialColorList = [
   'FFC400',
   'FFAB00',
   // 'Orange'
-  'FF9800',
   'FFF3E0',
   'FFE0B2',
   'FFCC80',
@@ -543,7 +509,6 @@ export const materialColorList = [
   'FF9100',
   'FF6D00',
   // 'Deep Orange'
-  'FF5722',
   'FBE9E7',
   'FFCCBC',
   'FFAB91',
@@ -559,7 +524,6 @@ export const materialColorList = [
   'FF3D00',
   'DD2C00',
   // 'Brown'
-  '795548',
   'EFEBE9',
   'D7CCC8',
   'BCAAA4',
@@ -571,7 +535,6 @@ export const materialColorList = [
   '4E342E',
   '3E2723',
   // 'Grey'
-  '9E9E9E',
   'FAFAFA',
   'F5F5F5',
   'EEEEEE',
@@ -583,7 +546,6 @@ export const materialColorList = [
   '424242',
   '212121',
   // 'Blue Grey'
-  '607D8B',
   'ECEFF1',
   'CFD8DC',
   'B0BEC5',
