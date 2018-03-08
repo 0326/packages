@@ -3,6 +3,7 @@ Generate random color(s), support RGB, material and web standard, rgb、rgba、h
 
 JavaScript 颜色生成器，支持 RGB, meterial 和 web 标准色彩模式，支持 rgb、rgba、hex 格式返回，支持 node.js 和浏览器环境。
 
+Github Repo: https://github.com/0326/packages/tree/master/packages/generate-color
 
 <p align="left">
   <a href="https://www.npmjs.com/package/generate-color">
@@ -87,7 +88,7 @@ genColor({ format: 'object' })
 genColor({ format: 'hex', algorithm: 'Math.random' })
 ```
 
-#### rules: custom random rules
+#### rules: custom random rules (TODO)
 
 ```javascript
 const config = {
